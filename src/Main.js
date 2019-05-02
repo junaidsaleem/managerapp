@@ -26,8 +26,11 @@ export default class Main extends React.Component {
         <ImageBackground style={styles.container1} source={require('./component/img/bg.jpg')}>
             <View style={styles.container}>
                 <Text>
-                    Hi {currentUser && currentUser.email}!
+                    Hi Im here{currentUser && currentUser.email}!
                 </Text>
+                <View>
+                    
+                </View>
                 <Button 
                     title= "Logout" 
                     style = {styles.button}
