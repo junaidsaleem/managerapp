@@ -28,9 +28,9 @@ export default class Main extends React.Component {
                 <Text>
                     Hi Im here{currentUser && currentUser.email}!
                 </Text>
-                <View>
-                    
-                </View>
+                <Text>
+                    First Roll Back
+                </Text>
                 <Button 
                     title= "Logout" 
                     style = {styles.button}
